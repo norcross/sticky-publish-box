@@ -1,0 +1,1 @@
+<?php // silence is golden. duct tape is silver.
