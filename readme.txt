@@ -4,7 +4,7 @@ Donate link: http://andrewnorcross.com/donate
 Tags: post editor
 Requires at least: 4.4
 Tested up to: 4.4
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: MIT
 License URI: http://norcross.mit-license.org
 
@@ -38,6 +38,10 @@ This section describes how to install the plugin and get it working.
 
 
 == Changelog ==
+
+= 0.0.2 =
+
+* fixes issue when box is collapsed and re-opened.
 
 = 0.0.1 =
 

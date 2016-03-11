@@ -8,13 +8,13 @@ Sticky Publish Box
 Set the side publishing box on the WP post editor to stay on the side.
 
 ## Current Actions
-* Automatically sets the box.
+* Automatically sets the box to sticky on posts and pages.
 
 ## Changelog
 
 See [CHANGES.md](CHANGES.md).
 
 ## Roadmap
-* multi-site support
+* none at this time
 
 #### [Pull requests](https://github.com/norcross/sticky-publish-box/pulls) are very much welcome and encouraged.
