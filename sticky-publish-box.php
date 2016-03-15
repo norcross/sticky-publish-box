@@ -5,7 +5,7 @@
  * Description: Set the side publishing box on the WP post editor to stay on the side.
  * Author: Andrew Norcross
  * Author URI: http://andrewnorcross.com/
- * Version: 0.0.2
+ * Version: 0.0.3
  * Text Domain: sticky-publish-box
  * Requires WP: 4.0
  * Domain Path: languages
@@ -25,7 +25,7 @@ if ( ! defined( 'STKBX_DIR' ) ) {
 
 // Define our version.
 if ( ! defined( 'STKBX_VER' ) ) {
-	define( 'STKBX_VER', '0.0.2' );
+	define( 'STKBX_VER', '0.0.3' );
 }
 
 /**

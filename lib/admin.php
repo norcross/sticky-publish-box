@@ -22,18 +22,12 @@ class StickyPublishBox_Admin {
 		add_filter( 'admin_body_class',                 array( $this, 'sticky_publish_body'     )           );
 	}
 
-
-	/**
-	 * Load CSS and JS files
-	 *
-	 * @return
-	 */
 	/**
 	 * Load our JS and CSS for the side box.
 	 *
 	 * @param  string $hook  The hook of the page we're on.
 	 *
-	 * @return void/
+	 * @return void
 	 */
 	public function scripts_styles( $hook ) {
 
@@ -58,7 +52,7 @@ class StickyPublishBox_Admin {
 			// Now load it up.
 			wp_enqueue_script( 'sticky-publish-box', plugins_url( '/js/stkbx.admin' . $mins, __FILE__ ), array( 'jquery' ), $vers, true );
 			wp_localize_script( 'sticky-publish-box', 'stickyVars', array(
-				'stickyid'      => apply_filters( 'sticky_publish_id', 'div#submitdiv' ),
+				'stickyid'      => apply_filters( 'sticky_publish_id', '#submitdiv' ),
 				'opacity'       => apply_filters( 'sticky_publish_opacity', 0.35 ),
 				'breakpoint'    => apply_filters( 'sticky_publish_breakpoint', 850 ),
 				'y_offset'      => apply_filters( 'sticky_publish_y_offset', 20 ),
@@ -69,9 +63,9 @@ class StickyPublishBox_Admin {
 	/**
 	 * Add an admin body class to the areas using this.
 	 *
-	 * @param  string $classes  The original string of body classes
+	 * @param  string $classes  The original string of body classes.
 	 *
-	 * @return string $classes  The modified string of body classes
+	 * @return string $classes  The modified string of body classes.
 	 */
 	public function sticky_publish_body( $classes ) {
 
@@ -112,7 +106,7 @@ class StickyPublishBox_Admin {
 	// End our class.
 }
 
+
 // Call our class.
 $StickyPublishBox_Admin = new StickyPublishBox_Admin();
 $StickyPublishBox_Admin->init();
-
