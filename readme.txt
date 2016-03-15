@@ -41,7 +41,7 @@ This section describes how to install the plugin and get it working.
 
 = 0.0.3 =
 
-* adds optional Y offset for top padding.
+* adds filterable Y offset for top padding.
 * consolidated some redundant code.
 
 = 0.0.2 =
