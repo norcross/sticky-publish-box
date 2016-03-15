@@ -61,6 +61,7 @@ class StickyPublishBox_Admin {
 				'stickyid'      => apply_filters( 'sticky_publish_id', 'div#submitdiv' ),
 				'opacity'       => apply_filters( 'sticky_publish_opacity', 0.35 ),
 				'breakpoint'    => apply_filters( 'sticky_publish_breakpoint', 850 ),
+				'y_offset'      => apply_filters( 'sticky_publish_y_offset', 20 ),
 			));
 		}
 	}
